@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.0/model-viewer.min.js"></script>
+    <script src="https://kit.fontawesome.com/c3b56a7551.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <nav>
+        <ul id="nav_bar">
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contacts</a></li>
+            <li><a href="">Policies</a></li>
+            <li>
+                <a class="nav_icons" href=""><i class="fa-solid fa-user"></i></a>
+                <a class="nav_icons" href=""><i class="fa-solid fa-magnifying-glass"></i></i></i></a>
+                <a class="nav_icons" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="banner">
+            <div class="banner_container">
+                <p class="marquee">
+                    <span>INTERIOR DESIGN INTERIOR DESIGN INTERIOR DESIGN&nbsp;</span>
+                </p>
+                <p class="marquee marquee2">
+                    <span>INTERIOR DESIGN INTERIOR DESIGN INTERIOR DESIGN&nbsp;</span>
+                </p>
+                <div class="banner_container_text">
+                    <span>01</span>
+                    <p>Welcome to our furniture website, where we believe that every home deserves to be beautiful, comfortable, and functional. We understand that furniture is more than just something to sit on or place things on - it's an integral part of your daily life, your routines, and your rituals. That's why we offer a wide range of expertly crafted furniture pieces that cater to all your needs and preferences. Whether you're looking for a cozy sofa to relax on, a stylish dining table to host dinner parties, or a practical storage solution to keep your home clutter-free, we've got you covered. Explore our furniture collection today and discover the perfect pieces to transform your home into a haven of comfort and style.</p>
+                </div>          
+            </div>
+            
+            <img class="banner_img fade-in" src="/IMG/background2.jpg" alt="">
+            <img class="banner_img fade-in" src="/IMG/background3.jpg" alt="">
+            <img class="banner_img fade-in" src="/IMG/background4.jpg" alt="">
+            <div class="banner_text">
+                <span>EXPERIENCE </span>
+                <span>COMFORT </span>
+                <span>AND </span>
+                <span>QUALITY</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_container" id="main_section_3d">
+            <div class="product_description">
+                <h2>Handcrafted Wooden Bedside Table</h2>
+                <p>Add a touch of elegance to your bedroom with this beautiful wooden bedside table. Handcrafted from high-quality wood, this table features a classic design that will complement any decor. The table top provides ample space for a lamp, books, or other bedside essentials, while the handy drawer offers additional storage for your personal items.</p>
+
+                <p>Crafted by skilled artisans, this bedside table is made to last and will be a treasured addition to your home. The natural wood grain adds character and charm to the piece, while the smooth finish gives it a sleek and sophisticated look. The compact size makes it perfect for smaller spaces, and the sturdy construction ensures it can withstand daily use.</p>
+                    
+                <p>Whether you're looking for a practical and stylish addition to your bedroom or simply want to add a touch of warmth and character to your home, this wooden bedside table is the perfect choice. With its timeless design and quality craftsmanship, it's sure to be a favorite for years to come.</p>
+            </div>
+            <div class="model_container" id="container3d">
+                <model-viewer class="model" id="orbit-demo" src="/3DMODELS/bedside_table.glb" ar ar-modes="webxr" ar-scale="fixed" shadow-intensity="2.5" disable-zoom camera-orbit="calc(-1rad + calc(env(window-scroll-y) - 100%) * 2.5rad) 80deg 100%"></model-viewer>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+<script src="/JS/animations.js"></script>
+</html>
